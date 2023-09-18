@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:wght@400;500;600&display=swap');
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+}
+
+#left-header-section{
+    margin-left: 40px;
+}
+
+#right-header-section{
+    margin-right: 40px;
+}
+
+.menu-items{
+    padding-right: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#logo{
+    width: 40px;
+}
+
+#buy-now-btn{
+    background-color: rgb(170, 210, 54);
+    border-width: 0px;
+    padding: 9px 34px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+
+}
+
+body{
+    margin: 0px;
+}
+
+#landing-section{
+    margin-top: 100px;
+    height: 600px;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#landing-section h1{
+    max-width: 900px;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+#landing-section p{
+    max-width: 900px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#steps-section{
+    display: flex;
+    color: white;
+}
+
+.step-card{
+    width: 25%;
+    padding: 112px 48px;
+    text-align: center;
+}
+
+#step1{
+background-color: #5acda6;
+}
+
+#step2{
+background-color: #91ac41;
+    
+}
+
+#step3{
+background-color: #e4b476;
+    
+}
+
+#step4{
+background-color: #f69dad;
+    
+}
+
+.step-icon{
+    font-size: 96px;
+}
+
+
+.step-heaidng{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.step-description{
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    margin-top: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#testimonial-section{
+    text-align: center;
+}
+
+#testimonials-heading{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+
+
+#testimonials-desc{
+    max-width: 700px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#testimonial-cards-section{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+}
+
+.testimonial-card{
+     width: calc(33% - 150px - 2px);
+     margin: 10px 20px;
+     padding: 40px 50px;
+     background-color: #f5f6fb;
+     border-top-left-radius: 45px;
+     border-bottom-left-radius: 45px;
+     border-bottom-right-radius: 45px;
+}
+
+.testimonial-image{
+    width: 80px;
+    border-radius: 40px;
+}
+
+.testimonial-message{
+    margin-top: 20px;
+    font-size: 14px;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+}
+
+.staff-name{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0px;
+
+}
+
+.job-role{
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+}
+
+#follow-up-section{
+display: flex;
+  margin-bottom : 0px
+}
+
+#strawberry-image-section{
+    width: 70%;
+}
+
+#email-section{
+    width: 30%;
+    height: 709.513px;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 80px;
+}
+
+.strawberry-image{
+    width: 100%;
+    height: 709.513px;
+  
+}
+
+#email-section h2{
+    font-size: 44px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+#email-section p{
+    color: #8b8b99;
+    font-size: 16px;
+    letter-spacing: 0.5;
+    line-height: 1.6;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    margin-bottom: 100px;
+
+}
+
+#email-input-tag{
+    border-style: none;
+    border-width: 0px;
+    border-radius: 4px;
+    padding: 20px 0px;
+    padding-left: 10px;
+    padding-right: 120px;
+    margin-bottom: 10px;
+
+
+}
+
+#email-input-tag:focus{
+    outline: none;
+}
+
+#email-input-tag::placeholder{
+    font-size: 20px;
+}
+
+#subscribe-btn{
+    color: white;
+    background-color: #f69dad;
+    padding: 15px 40px;
+    border-width: 0px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+}
+
+#footer-section{
+    margin: 0px;
+    padding: 30px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
